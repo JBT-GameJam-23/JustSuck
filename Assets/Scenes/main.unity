@@ -243,14 +243,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyWeaveData:
-  - {fileID: 11400000, guid: a8741d8338c1cc74885eaf6cd56cc4c7, type: 2}
-  - {fileID: 11400000, guid: b4be39639b496bc4780638169388fbf4, type: 2}
-  - {fileID: 11400000, guid: dec2ff612c278c54890914e3a1a749dd, type: 2}
-  - {fileID: 11400000, guid: accb49443cfcdb44c9f01984be6dcc16, type: 2}
-  - {fileID: 11400000, guid: 2c1bd7377b42d664c90fb3d54d9a6cfd, type: 2}
-  - {fileID: 11400000, guid: dc37c0987432b2e4d83506661894b4a3, type: 2}
-  - {fileID: 11400000, guid: a796912a78e3f64418a18d4eb15c7904, type: 2}
-  - {fileID: 11400000, guid: 398d3c913923e7349a534281f1da9d54, type: 2}
+  - {fileID: 11400000, guid: 1018fc1ba6b4c5c4982ab95ff27f0613, type: 2}
+  - {fileID: 11400000, guid: 49c531230ba62af40804f42e69beea9d, type: 2}
+  - {fileID: 11400000, guid: e1b563a74232f8d4db9d7f6567501a30, type: 2}
+  - {fileID: 11400000, guid: 71617a407cceafe4aa38b35e80d62304, type: 2}
+  - {fileID: 11400000, guid: 5367a83256ac8b444bda6a74ee6a45b7, type: 2}
+  - {fileID: 11400000, guid: 14b63fd36ace9e840b29a0aeed38619c, type: 2}
+  - {fileID: 11400000, guid: 1768e42d433acc84383a6a1ad841a42a, type: 2}
+  - {fileID: 11400000, guid: 03110612b20ccc146b1201b5885b7286, type: 2}
   enemies:
     m_Keys: 000000000100000002000000
     m_Values:
