@@ -10,36 +10,54 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 59b36a2aacdd419590a523fc2df2a88c, type: 3}
-  m_Name: EnemyGenerateData 0
+  m_Name: EnemyGenerateData
   m_EditorClassIdentifier: 
   enemyTimeline:
   - time: 1
     distance: 3
-    type: 1
-  - time: 4.5
-    distance: 4
-    type: 1
-  - time: 4.5
-    distance: 4
-    type: 1
-  - time: 4.5
-    distance: 4
-    type: 1
-  - time: 8.5
-    distance: 3
     type: 0
-  - time: 8.5
-    distance: 5
-    type: 1
-  - time: 15.5
-    distance: 3
-    type: 1
-  - time: 15.5
+  - time: 6
+    distance: 4
+    type: 0
+  - time: 6
+    distance: 4
+    type: 0
+  - time: 6
+    distance: 4
+    type: 0
+  - time: 9
     distance: 5
     type: 0
-  - time: 15.5
-    distance: 3
-    type: 1
-  - time: 15.5
+  - time: 9
     distance: 5
+    type: 0
+  - time: 9
+    distance: 5
+    type: 0
+  - time: 11.5
+    distance: 2
+    type: 0
+  - time: 11.5
+    distance: 2
+    type: 0
+  - time: 13
+    distance: 4
+    type: 0
+  - time: 13
+    distance: 4
+    type: 0
+  - time: 13
+    distance: 4
+    type: 0
+  - time: 15
+    distance: 6
+    type: 0
+  - time: 15
+    distance: 6
+    type: 0
+  - time: 15
+    distance: 6
+    type: 0
+  - time: 15
+    distance: 6
     type: 0

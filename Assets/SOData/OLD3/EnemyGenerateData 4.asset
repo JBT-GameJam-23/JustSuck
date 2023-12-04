@@ -32,13 +32,13 @@ MonoBehaviour:
     distance: 4
     type: 0
   - time: 7
-    distance: 5.5
+    distance: 6.5
     type: 1
   - time: 7
-    distance: 5.5
+    distance: 6.5
     type: 1
   - time: 7
-    distance: 5.5
+    distance: 6.5
     type: 1
   - time: 9
     distance: 2
@@ -58,57 +58,57 @@ MonoBehaviour:
   - time: 11
     distance: 4.5
     type: 0
-  - time: 17
+  - time: 15
     distance: 2
     type: 0
-  - time: 17
+  - time: 15
     distance: 2
     type: 0
-  - time: 17
+  - time: 15
     distance: 1.5
     type: 1
-  - time: 17
+  - time: 15
     distance: 1.5
     type: 1
-  - time: 21
-    distance: 5.5
+  - time: 18
+    distance: 6.5
     type: 1
-  - time: 21
-    distance: 5.5
+  - time: 18
+    distance: 6.5
     type: 1
-  - time: 21
-    distance: 5.5
+  - time: 18
+    distance: 6.5
     type: 1
-  - time: 21
-    distance: 5.5
+  - time: 18
+    distance: 6.5
     type: 1
-  - time: 21
-    distance: 5.5
+  - time: 18
+    distance: 6.5
     type: 1
-  - time: 23
-    distance: 1.5
-    type: 2
-  - time: 23
+  - time: 20
     distance: 1.5
     type: 2
-  - time: 23
+  - time: 20
     distance: 1.5
     type: 2
-  - time: 24
+  - time: 20
+    distance: 1.5
+    type: 2
+  - time: 21
     distance: 2.5
     type: 0
-  - time: 24
+  - time: 21
     distance: 2.5
     type: 0
-  - time: 24
+  - time: 21
     distance: 2.5
     type: 0
-  - time: 26
+  - time: 23
     distance: 4
     type: 0
-  - time: 26
+  - time: 23
     distance: 4
     type: 0
-  - time: 26
+  - time: 23
     distance: 4
     type: 0

@@ -55,39 +55,42 @@ MonoBehaviour:
   - time: 9
     distance: 4.5
     type: 1
-  - time: 17
+  - time: 14
     distance: 2.45
     type: 1
-  - time: 17
+  - time: 14
     distance: 6
     type: 0
-  - time: 17
+  - time: 14
     distance: 6
     type: 0
-  - time: 17
+  - time: 14
     distance: 6
     type: 0
-  - time: 24
+  - time: 20
     distance: 5.5
     type: 0
-  - time: 24
+  - time: 20
     distance: 5.5
     type: 0
-  - time: 24
+  - time: 20
     distance: 5.5
     type: 0
-  - time: 24
+  - time: 20
     distance: 5.5
     type: 0
-  - time: 24
+  - time: 20
     distance: 5.5
     type: 0
-  - time: 24
+  - time: 20
     distance: 5.5
     type: 0
-  - time: 24
+  - time: 20
     distance: 5.5
     type: 0
-  - time: 24.5
+  - time: 20
+    distance: 5.5
+    type: 0
+  - time: 20.5
     distance: 5.5
     type: 2

@@ -67,6 +67,12 @@ MonoBehaviour:
   - time: 7
     distance: 4
     type: 0
+  - time: 7
+    distance: 4
+    type: 0
+  - time: 7
+    distance: 4
+    type: 0
   - time: 11.5
     distance: 5.5
     type: 0
@@ -86,134 +92,134 @@ MonoBehaviour:
     distance: 4
     type: 0
   - time: 21
-    distance: 2.2
+    distance: 2.7
     type: 1
   - time: 21
-    distance: 2.2
+    distance: 2.7
     type: 1
   - time: 21
-    distance: 2.2
+    distance: 2.7
     type: 1
   - time: 21
-    distance: 2.2
+    distance: 2.7
     type: 1
   - time: 21
-    distance: 2.2
+    distance: 2.7
     type: 1
   - time: 21
-    distance: 2.2
+    distance: 2.7
     type: 1
   - time: 21
-    distance: 2.2
+    distance: 2.7
     type: 1
   - time: 21
-    distance: 2.2
+    distance: 2.7
     type: 1
   - time: 21
-    distance: 2.2
+    distance: 2.7
     type: 1
   - time: 21
-    distance: 2.2
+    distance: 2.7
     type: 1
   - time: 21
-    distance: 2.2
+    distance: 2.7
     type: 1
   - time: 21
-    distance: 2.2
+    distance: 2.7
     type: 1
   - time: 21
-    distance: 2.2
+    distance: 2.7
     type: 1
   - time: 21
-    distance: 2.2
+    distance: 2.7
     type: 1
   - time: 23
-    distance: 3.5
+    distance: 4
     type: 0
   - time: 23
-    distance: 3.5
+    distance: 4
     type: 0
   - time: 23
-    distance: 3.5
+    distance: 4
     type: 0
   - time: 23
-    distance: 3.5
+    distance: 4
     type: 0
   - time: 23
-    distance: 3.5
+    distance: 4
     type: 0
   - time: 23
-    distance: 3.5
+    distance: 4
     type: 0
   - time: 23
-    distance: 3.5
+    distance: 4
     type: 0
   - time: 23
-    distance: 3.5
+    distance: 4
     type: 0
   - time: 23
-    distance: 3.5
+    distance: 4
     type: 0
   - time: 23
-    distance: 3.5
+    distance: 4
     type: 0
   - time: 23
-    distance: 3.5
+    distance: 4
     type: 0
   - time: 23
-    distance: 3.5
+    distance: 4
     type: 0
   - time: 23
-    distance: 3.5
+    distance: 4
     type: 0
   - time: 23
-    distance: 3.5
+    distance: 4
     type: 0
   - time: 23
-    distance: 3.5
+    distance: 4
     type: 0
   - time: 25
-    distance: 3.5
+    distance: 5.5
     type: 0
   - time: 25
-    distance: 5
+    distance: 5.5
     type: 0
   - time: 25
-    distance: 5
+    distance: 5.5
     type: 0
   - time: 25
-    distance: 5
+    distance: 5.5
     type: 0
   - time: 25
-    distance: 5
+    distance: 5.5
     type: 0
   - time: 25
-    distance: 5
+    distance: 5.5
     type: 0
   - time: 25
-    distance: 5
+    distance: 5.5
     type: 0
   - time: 25
-    distance: 5
+    distance: 5.5
     type: 0
   - time: 25
-    distance: 5
+    distance: 5.5
     type: 0
   - time: 25
-    distance: 5
+    distance: 5.5
     type: 0
   - time: 25
-    distance: 5
+    distance: 5.5
     type: 0
   - time: 25
-    distance: 5
+    distance: 5.5
     type: 0
   - time: 25
-    distance: 5
+    distance: 5.5
     type: 0
   - time: 25
-    distance: 5
+    distance: 5.5
     type: 0
   - time: 25
-    distance: 5
+    distance: 5.5
     type: 0

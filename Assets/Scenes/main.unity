@@ -258,7 +258,7 @@ MonoBehaviour:
     - {fileID: 6778795058852861196, guid: 2746ac4c82f47904a9f910fe8dc48e77, type: 3}
     - {fileID: 8611426530155834215, guid: 8fc2f17d211aacf44895c6673fded4b9, type: 3}
   enemyRoot: {fileID: 267450930}
-  attackWeaveIndex: 4
+  attackWeaveIndex: 3
   timers: []
   weaveIndex: 0
   weaveRegisterFinished: 0

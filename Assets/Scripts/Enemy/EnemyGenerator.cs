@@ -23,6 +23,8 @@ namespace Enemy
         [ReadOnly] public bool weaveRegisterFinished;
         [ReadOnly] public bool allEnemyDied;
 
+        private bool _attackTutorial = true;
+
         public void Generate(int weaveDataIndex)
         {
             if (weaveDataIndex == enemyWeaveData.Count)
@@ -35,10 +37,14 @@ namespace Enemy
 
             Debug.Log("Weave" + weaveDataIndex);
 
-            if (weaveDataIndex == attackWeaveIndex)
+            if (weaveDataIndex == attackWeaveIndex && _attackTutorial)
+            {
+                _attackTutorial = false;
                 FlowchartManager.ExecuteBlock("FirstAttackWeave");
+            }
 
             ClearTimers();
+            weaveRegisterFinished = false;
 
             var data = enemyWeaveData[weaveDataIndex];
             for (int i = 0; i < data.enemyTimeline.Count; i++)

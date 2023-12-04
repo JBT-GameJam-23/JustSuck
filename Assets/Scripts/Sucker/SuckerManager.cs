@@ -119,6 +119,7 @@ namespace Sucker
         {
             Timer.Register(2f, () => _canRespawn = true, useRealTime: true);
             hasDied = true;
+            EnemyGenerator.Instance.weaveRegisterFinished = false;
             _spriteRenderer.enabled = false;
             _collider.enabled = false;
             Instantiate(dieParticle, transform.position, Quaternion.identity);
@@ -159,7 +160,6 @@ namespace Sucker
 
         private void Respawn()
         {
-            hasDied = false;
             Time.timeScale = 1;
             foreach (Transform child in enemyRoot.transform) 
                 Destroy(child.gameObject);
@@ -172,6 +172,7 @@ namespace Sucker
             Timer.Register(1f,
                 onComplete: () =>
                 {
+                    hasDied = false;
                     _collider.enabled = true;
                     _canRespire = true;
                     suckTimer = maxSuckTimeSet;

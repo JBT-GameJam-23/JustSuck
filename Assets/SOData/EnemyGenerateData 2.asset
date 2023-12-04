@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyTimeline:
   - time: 1
-    distance: 6
+    distance: 5.8
     type: 2
   - time: 5
     distance: 3
@@ -41,16 +41,16 @@ MonoBehaviour:
     distance: 5
     type: 2
   - time: 13.5
-    distance: 6
+    distance: 5
     type: 0
   - time: 13.5
-    distance: 6
+    distance: 5
     type: 0
   - time: 13.5
-    distance: 6
+    distance: 5
     type: 0
   - time: 13.5
-    distance: 6
+    distance: 5.5
     type: 2
   - time: 18
     distance: 3
