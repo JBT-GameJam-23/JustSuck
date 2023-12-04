@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59b36a2aacdd419590a523fc2df2a88c, type: 3}
+  m_Name: EnemyGenerateData 6
+  m_EditorClassIdentifier: 
+  enemyTimeline:
+  - time: 1
+    distance: 4
+    type: 0
+  - time: 1.5
+    distance: 4
+    type: 0
+  - time: 2
+    distance: 4
+    type: 0
+  - time: 2.5
+    distance: 2
+    type: 1
+  - time: 3
+    distance: 4
+    type: 0
+  - time: 3.5
+    distance: 4
+    type: 0
+  - time: 4
+    distance: 2
+    type: 1
+  - time: 4.5
+    distance: 5
+    type: 0
+  - time: 5
+    distance: 5
+    type: 0
+  - time: 5.5
+    distance: 5
+    type: 0
+  - time: 6
+    distance: 5
+    type: 0
+  - time: 11
+    distance: 3
+    type: 2
+  - time: 11
+    distance: 3
+    type: 2
+  - time: 11
+    distance: 3
+    type: 2
+  - time: 11
+    distance: 3
+    type: 2
+  - time: 11
+    distance: 3
+    type: 2
+  - time: 11
+    distance: 3
+    type: 2
+  - time: 11
+    distance: 3
+    type: 2
+  - time: 11
+    distance: 3
+    type: 2
+  - time: 11
+    distance: 3
+    type: 2
+  - time: 11
+    distance: 3
+    type: 2
+  - time: 11
+    distance: 3
+    type: 2
+  - time: 11
+    distance: 3
+    type: 2
+  - time: 15
+    distance: 3
+    type: 1
+  - time: 15
+    distance: 3
+    type: 1
+  - time: 15
+    distance: 3
+    type: 1
+  - time: 15.5
+    distance: 6.5
+    type: 2
+  - time: 24
+    distance: 3.5
+    type: 1
+  - time: 24
+    distance: 3.5
+    type: 1
+  - time: 24
+    distance: 3.5
+    type: 1
+  - time: 24.5
+    distance: 6.5
+    type: 2
+  - time: 24.5
+    distance: 6.5
+    type: 2
+  - time: 33.5
+    distance: 1.5
+    type: 2
+  - time: 33.5
+    distance: 1.5
+    type: 2
+  - time: 33.5
+    distance: 1.5
+    type: 2
+  - time: 35.5
+    distance: 3.5
+    type: 0
+  - time: 35.5
+    distance: 4
+    type: 0
+  - time: 35.5
+    distance: 3.5
+    type: 0
+  - time: 35.5
+    distance: 3
+    type: 0
+  - time: 37.5
+    distance: 3
+    type: 1
+  - time: 37.5
+    distance: 4
+    type: 0
+  - time: 37.5
+    distance: 3
+    type: 1
+  - time: 37.5
+    distance: 4
+    type: 0
+  - time: 39
+    distance: 4.5
+    type: 2
+  - time: 39
+    distance: 5
+    type: 0
+  - time: 39
+    distance: 4.5
+    type: 1
+  - time: 39
+    distance: 5
+    type: 0
+  - time: 41.5
+    distance: 5
+    type: 2
+  - time: 41.5
+    distance: 5.5
+    type: 2
+  - time: 41.5
+    distance: 5.5
+    type: 0
+  - time: 41.5
+    distance: 5
+    type: 0
+  - time: 49
+    distance: 1.5
+    type: 1
+  - time: 49
+    distance: 1.5
+    type: 1
+  - time: 49
+    distance: 1.5
+    type: 1
+  - time: 49
+    distance: 1.5
+    type: 1
+  - time: 49
+    distance: 1.5
+    type: 1
+  - time: 49
+    distance: 1.5
+    type: 1
+  - time: 49
+    distance: 1.5
+    type: 1
+  - time: 49
+    distance: 1.5
+    type: 1
+  - time: 49
+    distance: 1.5
+    type: 1
+  - time: 54
+    distance: 3
+    type: 0

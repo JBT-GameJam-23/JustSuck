@@ -243,14 +243,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyWeaveData:
-  - {fileID: 11400000, guid: 0a2d368d6b54c2044853243823aa7c86, type: 2}
-  - {fileID: 11400000, guid: 2e3be7688130b1a4aaa2e5c3a6706823, type: 2}
-  - {fileID: 11400000, guid: 00f4032586c70e543b4d1cba30c4fcff, type: 2}
-  - {fileID: 11400000, guid: 9b4546a323888a74b851460d03728cb1, type: 2}
-  - {fileID: 11400000, guid: 367e1d79bd2308545939c1ba43210c79, type: 2}
-  - {fileID: 11400000, guid: 19fc0e18c76d7d241988c4ffabeea218, type: 2}
-  - {fileID: 11400000, guid: 651083553d3bbdd408a54a8672ebf6de, type: 2}
-  - {fileID: 11400000, guid: 01f3c1a5e2b1d324aac522d6ec81854c, type: 2}
+  - {fileID: 11400000, guid: a8741d8338c1cc74885eaf6cd56cc4c7, type: 2}
+  - {fileID: 11400000, guid: b4be39639b496bc4780638169388fbf4, type: 2}
+  - {fileID: 11400000, guid: dec2ff612c278c54890914e3a1a749dd, type: 2}
+  - {fileID: 11400000, guid: accb49443cfcdb44c9f01984be6dcc16, type: 2}
+  - {fileID: 11400000, guid: 2c1bd7377b42d664c90fb3d54d9a6cfd, type: 2}
+  - {fileID: 11400000, guid: dc37c0987432b2e4d83506661894b4a3, type: 2}
+  - {fileID: 11400000, guid: a796912a78e3f64418a18d4eb15c7904, type: 2}
+  - {fileID: 11400000, guid: 398d3c913923e7349a534281f1da9d54, type: 2}
   enemies:
     m_Keys: 000000000100000002000000
     m_Values:
@@ -258,9 +258,10 @@ MonoBehaviour:
     - {fileID: 6778795058852861196, guid: 2746ac4c82f47904a9f910fe8dc48e77, type: 3}
     - {fileID: 8611426530155834215, guid: 8fc2f17d211aacf44895c6673fded4b9, type: 3}
   enemyRoot: {fileID: 267450930}
+  attackWeaveIndex: 4
   timers: []
   weaveIndex: 0
-  weaveGenerateFinished: 0
+  weaveRegisterFinished: 0
   allEnemyDied: 0
 --- !u!1 &333743310
 GameObject:
@@ -1840,10 +1841,6 @@ GameObject:
   - component: {fileID: 1076885745}
   - component: {fileID: 1076885739}
   - component: {fileID: 1076885744}
-  - component: {fileID: 1076885743}
-  - component: {fileID: 1076885742}
-  - component: {fileID: 1076885741}
-  - component: {fileID: 1076885740}
   - component: {fileID: 1076885747}
   - component: {fileID: 1076885750}
   - component: {fileID: 1076885752}
@@ -1859,6 +1856,10 @@ GameObject:
   - component: {fileID: 1076885761}
   - component: {fileID: 1076885762}
   - component: {fileID: 1076885763}
+  - component: {fileID: 1076885764}
+  - component: {fileID: 1076885767}
+  - component: {fileID: 1076885766}
+  - component: {fileID: 1076885765}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1891,7 +1892,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1076885733}
+  - {fileID: 1076885764}
   selectedCommands: []
   variables: []
   description: 
@@ -2211,10 +2212,6 @@ MonoBehaviour:
   - {fileID: 1076885745}
   - {fileID: 1076885739}
   - {fileID: 1076885744}
-  - {fileID: 1076885743}
-  - {fileID: 1076885742}
-  - {fileID: 1076885741}
-  - {fileID: 1076885740}
   suppressAllAutoSelections: 0
 --- !u!114 &1076885734
 MonoBehaviour:
@@ -2329,102 +2326,6 @@ MonoBehaviour:
   _duration:
     floatRef: {fileID: 0}
     floatVal: 2
-  durationOLD: 0
---- !u!114 &1076885740
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1076885719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 23
-  indentLevel: 0
-  targetObjects:
-  - {fileID: 1547184153}
-  tweenType: 2
-  waitUntilFinished:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  fadeMode: 0
-  targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
-  targetAlpha:
-    floatRef: {fileID: 0}
-    floatVal: 0
---- !u!114 &1076885741
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1076885719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 22
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 2
-  durationOLD: 0
---- !u!114 &1076885742
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1076885719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 21
-  indentLevel: 0
-  targetObjects:
-  - {fileID: 1547184153}
-  tweenType: 2
-  waitUntilFinished:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  fadeMode: 0
-  targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
-  targetAlpha:
-    floatRef: {fileID: 0}
-    floatVal: 0.3
---- !u!114 &1076885743
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1076885719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 20
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
   durationOLD: 0
 --- !u!114 &1076885744
 MonoBehaviour:
@@ -2869,7 +2770,7 @@ MonoBehaviour:
     floatVal: 0.3
 --- !u!114 &1076885762
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2887,7 +2788,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &1076885763
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2900,6 +2801,113 @@ MonoBehaviour:
   parentBlock: {fileID: 1076885733}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
+--- !u!114 &1076885764
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076885719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 120
+    y: 260
+    width: 140
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 41
+  blockName: FirstAttackWeave
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1076885767}
+  - {fileID: 1076885766}
+  - {fileID: 1076885765}
+  suppressAllAutoSelections: 0
+--- !u!114 &1076885765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076885719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 44
+  indentLevel: 0
+  targetObjects:
+  - {fileID: 1547184153}
+  tweenType: 2
+  waitUntilFinished:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  fadeMode: 0
+  targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  targetAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 0
+--- !u!114 &1076885766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076885719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 43
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
+--- !u!114 &1076885767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076885719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 42
+  indentLevel: 0
+  targetObjects:
+  - {fileID: 1547184153}
+  tweenType: 2
+  waitUntilFinished:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  fadeMode: 0
+  targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  targetAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 0.3
 --- !u!1 &1168274359
 GameObject:
   m_ObjectHideFlags: 0
@@ -3136,7 +3144,7 @@ MonoBehaviour:
   getBallEffect: {fileID: 7819844438210866293}
   peakEffect: {fileID: 8425212640794304986}
   defendEffect: {fileID: 2892071436591947418}
-  maxSuckTimeSet: 2.7
+  maxSuckTimeSet: 3
   respirePunishmentTimeSet: 1
   dieParticle: {fileID: 1042884271746948172, guid: e98ddd8770da00a4fb81994bb6f97a77, type: 3}
   enemyRoot: {fileID: 267450929}

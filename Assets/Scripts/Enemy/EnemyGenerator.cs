@@ -13,10 +13,11 @@ namespace Enemy
 {
     public class EnemyGenerator : SingletonMono<EnemyGenerator>
     {
-        [InfoBox("Enemy Time Line Data")] public List<EnemyGenerateData> enemyWeaveData = new();
-        [InfoBox("Enemy Type")] public SerializedDictionary<EnemyType, GameObject> enemies = new();
+        [Title("Enemy Time Line Data")] public List<EnemyGenerateData> enemyWeaveData = new();
+        [Title("Enemy Type")] public SerializedDictionary<EnemyType, GameObject> enemies = new();
         public Transform enemyRoot;
-
+        public int attackWeaveIndex;
+        [Title("Info")]
         [ReadOnly] public List<Timer> timers;
         [ReadOnly] public int weaveIndex;
         [ReadOnly] public bool weaveRegisterFinished;
@@ -33,6 +34,9 @@ namespace Enemy
             }
 
             Debug.Log("Weave" + weaveDataIndex);
+
+            if (weaveDataIndex == attackWeaveIndex)
+                FlowchartManager.ExecuteBlock("FirstAttackWeave");
 
             ClearTimers();
 
@@ -77,7 +81,7 @@ namespace Enemy
 
         private void Check()
         {
-            allEnemyDied = enemyRoot.GetComponentsInChildren<Enemy>().Length <= 1;
+            allEnemyDied = enemyRoot.GetComponentsInChildren<Enemy>().Length < 1;
 
             if (weaveRegisterFinished && allEnemyDied && !SuckerManager.Instance.hasDied)
             {
