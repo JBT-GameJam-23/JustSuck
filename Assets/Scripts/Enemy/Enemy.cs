@@ -50,7 +50,7 @@ namespace Enemy
 
         private bool _effectTriggered;
         
-        protected virtual void Update()
+        protected virtual void FixedUpdate()
         {
             Direction = ((Vector2)(transform.position - Sucker.position)).normalized;
             _isBeingSuckedIn = SuckerManager.Instance.isSucking;

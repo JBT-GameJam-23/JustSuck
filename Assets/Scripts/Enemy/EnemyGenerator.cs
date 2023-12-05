@@ -44,6 +44,8 @@ namespace Enemy
             }
 
             ClearTimers();
+            foreach (Transform child in enemyRoot.transform)
+                Destroy(child.gameObject);
             weaveRegisterFinished = false;
 
             var data = enemyWeaveData[weaveDataIndex];
